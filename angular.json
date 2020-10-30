@@ -90,7 +90,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/@google/markerclusterer/dist/markerclusterer.min.js"
+            ]
           }
         },
         "lint": {
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "farmacias-de-turno-rm"
+    }
+  },
+  "defaultProject": "farmacias-de-turno-rm",
+  "cli": {
+    "analytics": "a45fd3c3-c275-47b0-9486-f0a8754a7592"
+  }
 }

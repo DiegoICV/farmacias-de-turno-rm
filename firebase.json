@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/farmacias-de-turno-rm",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
